@@ -51,7 +51,7 @@ const MoviesList=React.memo(_=> {
             </div>
 
             {favouriteMovies.length>0 && <div className='movieListBodyContainer'>
-                <h2 className='movieListHeading'> Movies by latest</h2>
+                <h2 className='movieListHeading'> Favourite Movies</h2>
                 <hr />
 
                 <div className='moviesCard'>
