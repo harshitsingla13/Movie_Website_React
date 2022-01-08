@@ -1,0 +1,30 @@
+.container{
+    background-color: #111;
+}
+.movieListBodyContainer{ 
+    margin: 1rem;
+}
+
+.loadMoreButton{ 
+    display: flex; 
+    justify-content: center; 
+}
+
+.loadButton{
+    background: #111;
+    color: white;
+}
+
+.moviesCard{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 5px;
+}
+
+.moviesCard::-webkit-scrollbar {
+    background: #111;
+}
+.movieListHeading{
+color: white;
+}

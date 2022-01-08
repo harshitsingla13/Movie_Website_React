@@ -1,0 +1,10 @@
+.image__notFound{
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+}
+.ddd{
+    height:100%;
+}
+  

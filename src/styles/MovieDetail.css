@@ -1,0 +1,43 @@
+.movieDetail_container{ 
+    margin: 1rem auto; 
+    position: absolute;
+    background-color: antiquewhite;
+    width:100%
+}
+@media (max-width: 460px) {
+    table {
+      position: relative;
+    }
+    thead, tbody {
+      vertical-align: top;
+    }
+    thead, tbody, tr {
+      display: table-cell;
+    }
+    thead {
+      width: 100px;
+      /* border: 1px solid #999; */
+    }
+    tbody {
+      /* necessary to keep header visible on left for scroll */
+      position: absolute;
+      left: 100px;
+      width: 200px;
+      /* border: 1px solid #e7e7e7; */
+      overflow-x: scroll;
+    }
+    th, td {
+      display: block;
+      width: 100px;
+      height: 50px;
+      padding: 10px 0;
+    }
+    td{
+        padding:10px;
+    }
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

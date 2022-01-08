@@ -1,0 +1,15 @@
+.gridCard__image:hover {
+    transform: scale(1.09);
+}
+
+.gridCard__image{
+    max-height: 250px;
+    width: inherit;
+    object-fit: contain;
+    transition: transform 450ms;
+    margin-right: 10px;
+}
+
+.grid__container{
+    max-height: 250px;
+}
